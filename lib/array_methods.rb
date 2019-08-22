@@ -34,5 +34,7 @@ def find_min_value(array)
       small = array[counter]
     end
     counter += 1
-    return small
+  end
+  return small
+  
 end
