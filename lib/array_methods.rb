@@ -14,10 +14,10 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  counter = 0
+  counter = 1
   large = array[0]
   while counter < array.length do 
-    if large > array[counter + 1]
+    if large < array[counter]
       keep = array[counter]
     end
     counter += 1
