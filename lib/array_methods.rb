@@ -18,10 +18,11 @@ def find_max_value(array)
   large = array[0]
   while counter < array.length do 
     if large < array[counter]
-      keep = array[counter]
+      large = array[counter]
     end
     counter += 1
   end
+  return large
 end
 
 def find_min_value(array)
